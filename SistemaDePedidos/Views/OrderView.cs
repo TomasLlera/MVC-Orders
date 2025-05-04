@@ -8,15 +8,12 @@ using Models;
 namespace Views
 {
     public static class OrderView
-    {
-        public static void ShowProducts(List<Product> list)
-        {
-            ProductView.ShowProductList(list);
-        }
+    { 
+        
 
-        public static void ShowClient(Client client)
+        public static void showMsg(string msg)
         {
-            ClientView.ShowClient(client);
+            Console.WriteLine(msg);
         }
     }
 }

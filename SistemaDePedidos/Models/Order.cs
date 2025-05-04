@@ -9,7 +9,7 @@ namespace Models
     public class Order
     {
         public Client client { get; set; }
-        private List<Product> productList = new List<Product>();
+        public List<Product> productList = new List<Product>();
 
         public Order()
         {

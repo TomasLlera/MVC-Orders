@@ -38,6 +38,7 @@ namespace Views
 
             return temp;
         }
+
         public static List<Product> LoadProductList()
         {
             string resp = "n";

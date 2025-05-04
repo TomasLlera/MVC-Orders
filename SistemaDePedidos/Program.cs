@@ -1,7 +1,8 @@
 ﻿using System;
 using Controllers;
+using Repository;
 using Models;
-using Views;
+using System.IO;
 
 namespace SistemaDePedidos
 {
@@ -12,30 +13,28 @@ namespace SistemaDePedidos
             Menu();
         }
 
-        public static void Menu()
+        static void Menu()
         {
-            OrderController orderController = new OrderController();
-            ProductController productController = new ProductController();
-            ClientController clientController = new ClientController();
+            OrderController oController = new OrderController();
 
             bool salida = false;
             do
             {
-                console.WriteLine("1. Crear pedidos.");
-                console.WriteLine("2. Mostrar pedidos.");
-                console.WriteLine("3. Modificar pedido.");
-                console.WriteLine("4. Eliminar pedido.");
-                console.WriteLine("5. Salir.");
-                char opc = console.ReadKey().Keychar;
-                console.clear();
-                switch (opc)
+                int input = 0;
+                Console.WriteLine("Ingrese una opcion");
+                Console.WriteLine("Opcion 1: Cargar pedido");
+                Console.WriteLine("Opcion 2: Mostrar pedido");
+                input = int.Parse(Console.ReadLine());
+                switch (input)
                 {
-                    case '1'=
-                        orderController.CreateOrder();
+                    case 1:
+                        oController.CreateOrder();
                         break;
-                    case "2":
-                        orderController.ShowOrder();
+                    case 2:
+                        oController.ShowOrders();
                         break;
+                
+
                 }
             } while (!salida);
         }

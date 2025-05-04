@@ -25,9 +25,12 @@ namespace Controllers
         {
             return ProductView.LoadProductList();
         }
+        
         public void ShowProductList(List<Product> productList)
         {
             ProductView.ShowProductList(productList);
         }
+
+
     }
 }

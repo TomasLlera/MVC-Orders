@@ -20,6 +20,7 @@ namespace Controllers
             Console.WriteLine("------LOADING CLIENT------");
             return ClientView.LoadClient();
         }
+
         public void ShowClient(Client temp)
         {
             ClientView.ShowClient(temp);

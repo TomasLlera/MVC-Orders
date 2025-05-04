@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idra20\\source\\repos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj": {}
+    "C:\\Users\\idra18\\Desktop\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idra20\\source\\repos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj": {
+    "C:\\Users\\idra18\\Desktop\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idra20\\source\\repos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj",
+        "projectUniqueName": "C:\\Users\\idra18\\Desktop\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj",
         "projectName": "SistemaDePedidos",
-        "projectPath": "C:\\Users\\idra20\\source\\repos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj",
-        "packagesPath": "C:\\Users\\idra20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idra20\\source\\repos\\SistemaDePedidos\\SistemaDePedidos\\obj\\",
+        "projectPath": "C:\\Users\\idra18\\Desktop\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos.csproj",
+        "packagesPath": "C:\\Users\\idra18\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\idra18\\Desktop\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\SistemaDePedidos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\idra20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\idra18\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

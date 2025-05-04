@@ -1,0 +1,44 @@
+﻿[
+  {
+    "client": {
+      "Name": "Ana",
+      "LastName": "Pérez",
+      "ID": "12345",
+      "Adress": "Calle Falsa 123",
+      "Email": "ana.perez@email.com"
+    },
+    "productList": [
+      {
+        "Name": "Monitor 24 pulgadas",
+        "Price": 85000,
+        "Desc": "Monitor Full HD marca LG"
+      },
+      {
+        "Name": "Mouse Gamer",
+        "Price": 9500,
+        "Desc": "Mouse con 6 botones programables"
+      }
+    ]
+  },
+  {
+    "client": {
+      "Name": "Carlos",
+      "LastName": "Gutiérrez",
+      "ID": "67890",
+      "Adress": "Av. Siempreviva 742",
+      "Email": "carlos.gutierrez@email.com"
+    },
+    "productList": [
+      {
+        "Name": "Teclado Mecánico",
+        "Price": 18000,
+        "Desc": "Teclado con switches azules"
+      },
+      {
+        "Name": "Parlantes Bluetooth",
+        "Price": 22000,
+        "Desc": "Parlantes estéreo inalámbricos"
+      }
+    ]
+  }
+]

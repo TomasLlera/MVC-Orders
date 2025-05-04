@@ -22,5 +22,10 @@ namespace Models
             this.Adress = adress;
             this.Email = email;
         }
+
+        public Client()
+        {
+
+        }
     }
 }
